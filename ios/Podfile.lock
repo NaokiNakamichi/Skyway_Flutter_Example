@@ -1,0 +1,31 @@
+PODS:
+  - SkyWayCore (1.7.5):
+    - WebRTC (= 104.0.2)
+  - SkyWayRoom (1.8.5):
+    - SkyWayCore (= 1.7.5)
+    - SkyWaySFUBot (= 1.1.12)
+  - SkyWaySFUBot (1.1.12):
+    - SkyWayCore (= 1.7.5)
+    - WebRTC (= 104.0.2)
+  - WebRTC (104.0.2)
+
+DEPENDENCIES:
+  - SkyWayRoom
+
+SPEC REPOS:
+  https://github.com/skyway/skyway-ios-sdk-specs.git:
+    - SkyWayCore
+    - SkyWayRoom
+    - SkyWaySFUBot
+  https://github.com/skyway/skyway-ios-webrtc-specs.git:
+    - WebRTC
+
+SPEC CHECKSUMS:
+  SkyWayCore: 8f97ec0bf53bc685e95ba90eb5108574669892d7
+  SkyWayRoom: 6220fb349ff71513fecc08436ed0eddaf0c214f4
+  SkyWaySFUBot: 83ee1ed6a657771873c87954119d1bbac2c08714
+  WebRTC: 1f95fd23b0b7fe6de3bb895547a2d1d40f3fde02
+
+PODFILE CHECKSUM: c810c59d8d85ced58d782ebb601b592f6e0110f3
+
+COCOAPODS: 1.14.3
