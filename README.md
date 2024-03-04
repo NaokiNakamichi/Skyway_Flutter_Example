@@ -1,15 +1,10 @@
 # Skyway_Flutter_Example
 SkywayのクイックスタートをFlutterで試してみる。
+音声のみ、おうむ返しするアプリを作成しました。
 
-## 以下をFlutterで実装してみる。
-https://skyway.ntt.com/ja/docs/user-guide/ios-sdk/overview/
+## 以下を参考にFlutterで実装してみる。
 
-## Flutter　プロジェクト作成
+- [iOSのSDK準備](https://skyway.ntt.com/ja/docs/user-guide/ios-sdk/overview/)
+- [Skywayのクイックスタート](https://skyway.ntt.com/ja/docs/user-guide/ios-sdk/quickstart/)
 
-iosはSwiftで作成
-Podfileは以下のように修正
-
-```
-# platform :ios, '12.0'
-```
 
